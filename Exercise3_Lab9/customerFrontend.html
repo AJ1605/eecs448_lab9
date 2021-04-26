@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Web Store</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Exercise 3: Web Store</h1>
+            <p>Happy (toy) car shopping!</p>
+        </header>
+
+        <main>
+			<div id="background"></div>
+			<form action="customerBackend.php" method="post">
+				<b>Tesla:</b><br>
+					Model S, $79<br> 
+					Quantity: <input type="number" id="model_s" name="model_s" min="0"><br><br>
+
+					Model Y, $50<br> 
+					Quantity: <input type="number" id="model_y" name="model_y" min="0"><br><br>
+
+					Model 3, $38<br> 
+					Quantity: <input type="number" id="model_3" name="model_3" min="0"><br><br>
+
+				<b>Enter in your information:</b><br>
+					Username (email): <input type="text" name="username" id="username"><br>
+					Password: <input type="text" name="password" id="password"><br><br>
+
+				<b>Choose your shipping option:</b><br>
+					<input type="radio" name="shipping" id="free" value="Free 7 Day">Free 7 Day<br>
+					<input type="radio" name="shipping" id="50" value="$50 Over Night">$50.00 Over Night<br>
+					<input type="radio" name="shipping" id="5" value="$5 Three Day">$5.00 Three Day<br>
+				<input type="submit" id="submit" value="Submit">
+				<input type="reset">
+			</form>
+        </main>
+
+        <footer> Azdeen Jeljalane, EECS 448, Lab 9 </footer>
+        <script src="formChecker.js"></script>
+    </body>
+</html>

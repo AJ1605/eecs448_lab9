@@ -1,0 +1,54 @@
+body{
+    font: Georgia;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    padding: 0;
+}
+
+footer{
+    font: Georgia;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    padding-top: 5%;
+}
+
+#background{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("Background_Image.jpg");
+    opacity: 35%;
+    position: fixed;
+    top: 0px;
+    z-index: -1;
+}
+
+#submit{
+    margin: 10px 5px 5px 5px;
+}
+
+#refresh{
+    text-align: center;
+    padding: 5px;
+}
+
+input[type=number]{
+    width: 50px;
+}
